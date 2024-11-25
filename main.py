@@ -124,7 +124,7 @@ async def about(interaction: discord.Interaction):
     embed.add_field(name="Ping", value=f"{ping:.2f} ms", inline=True)
     embed.set_thumbnail(url="https://i.imgur.com/O1ltr0a.jpeg")
     embed.set_image(url="https://media.tenor.com/SYvxuKcTpEUAAAAi/cat-cats.gif")
-    embed.set_footer(text="Created by doogie doog", icon_url="https://slate.dan.onl/slate.png")
+    embed.set_footer(text="Created by doogie doog", icon_url="https://i.imgur.com/96n5Juo.png")
     
     await interaction.response.send_message(embed=embed)
 
