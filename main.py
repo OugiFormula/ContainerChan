@@ -116,7 +116,7 @@ async def about(interaction: discord.Interaction):
     # Create the embed
     embed = discord.Embed(
         title="Container-Chan",
-        description="This bot fetches and displays data from the Salad API which monitors the gpu demand on the network.\nthis bot is not affiliated with Salad.",
+        description="This bot is not affiliated with or owned by Salad Technologies. It uses data provided through the official Salad API for informational purposes only. This bot was created in order to display a list of gpus that are in demand on the salad network aswell as create real time graph showing the best earning gpus by average. This platform compares GPU earnings using data from Salad. The data provides an idea of typical earnings, but keep in mind that unusually high or low hourly rates might be due to outliers, which can distort the overall averages.",
         color=discord.Color.green(), timestamp=datetime.datetime.now()
     )
     embed.add_field(name="Bot Version", value="1.0.0", inline=False)
