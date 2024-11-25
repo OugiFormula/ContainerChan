@@ -143,7 +143,7 @@ async def graph(interaction: discord.Interaction):
     file = discord.File(img_buffer, filename="gpu_graph.png")
     embed = discord.Embed(title="Top 10 GPUs by Average Earnings", color=discord.Color.green(),timestamp=datetime.datetime.now())
     embed.set_image(url="attachment://gpu_graph.png")
-    embed.set_footer(text="Data taken from salad api, this bot isn't affiliated with salad!")
+    embed.set_footer(text="The data provides an idea of typical earnings, but keep in mind that unusually high or low hourly rates might be due to outliers, which can distort the overall averages.")
     await interaction.response.send_message(embed=embed, file=file)
 
 # Run the bot
