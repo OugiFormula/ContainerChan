@@ -63,3 +63,4 @@ the command will generate an image of a graph ranking the top 10 best earning gp
 The following command will send information about the bot.
 
 ## Have fun!
+(keep in mind I dont have time to maintain this so feel free to play around with it and feel free to contribute)
